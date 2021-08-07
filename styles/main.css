@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+  border: 2px solid rgb(14, 12, 12);
+  margin: 40px auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  min-width: 250px;
+  border: 1px solid gray;
+  padding: 15px;
+}
+.product1, .product2{
+  padding: 100px 40px;
+  text-align: center;
+  border: 1px solid red;
+  margin: 0 10px;
+}
+.actions{
+  padding: 100px 40px;  
+  border: 1px solid gray;
+  padding-top: 125px;
+}
+.actions .buy, .actions .credit{
+  text-align: center;
+  margin: 0 10px;
+}
